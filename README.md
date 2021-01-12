@@ -9,3 +9,9 @@ https://www.chartjs.org/docs/latest/getting-started/usage.html
 5. 컴포넌트의 플러그인화
    https://vuejs.org/v2/guide/plugins.html#ad
 6. 컴포넌트 통신을 이용한 차트 컴포넌트 기능
+
+## BarChart
+![vuejs_BarChart](https://user-images.githubusercontent.com/42309919/104310496-29461680-5517-11eb-92f9-fd65315e0917.PNG)
+
+## LineCart 
+![vuejs_LineChart](https://user-images.githubusercontent.com/42309919/104310500-2b0fda00-5517-11eb-9dd0-36be41358ef6.PNG)
