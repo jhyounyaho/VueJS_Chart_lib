@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  props: ['propsdata'],
   mounted() {
     const ctx = this.$refs.barChart;
     const myChart = new this.$_Chart(ctx, {
@@ -14,7 +15,8 @@ export default {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
           label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
+          //data: [12, 19, 3, 5, 2, 3],
+          data: this.propsdata,
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
             'rgba(54, 162, 235, 0.2)',
