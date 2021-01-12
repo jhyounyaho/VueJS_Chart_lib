@@ -3,12 +3,10 @@
 </template>
 
 <script>
-import Chart from 'chart.js';
-
 export default {
   mounted() {
     const ctx = this.$refs.barChart;
-    const myChart = new Chart(ctx, {
+    const myChart = new this.$_Chart(ctx, {
       // The type of chart we want to create
       type: 'bar',
       // The data for our dataset

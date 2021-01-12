@@ -3,12 +3,10 @@
 </template>
 
 <script>
-import Chart from 'chart.js';
-
 export default {
   mounted() {
     const ctx = this.$refs.lineChart;
-    const chart = new Chart(ctx, {
+    const chart = new this.$_Chart(ctx, {
       // The type of chart we want to create
       type: 'line',
       // The data for our dataset
